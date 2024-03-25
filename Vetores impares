@@ -1,11 +1,7 @@
 Algoritmo "repeticao1"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Ricardo Corrêa e Lucas Calu
-// Descrição   : Este Programa tem como função xxx
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 13/03/2024
+
 Var
-// Seção de Declarações das variáveis 
+
    vetor_impares: vetor [1..100] de inteiro
    indice_impar:inteiro
    
@@ -17,7 +13,7 @@ Var
    num: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+
 
    ESCREVAL("Quantos números deseja informar ?")
    LEIA(quantidade)
