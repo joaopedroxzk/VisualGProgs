@@ -1,0 +1,47 @@
+Algoritmo "vetor de nome"
+
+Var
+
+Nome: vetor [1..100] de caracter
+Sobrenome: vetor [1..100] de caracter
+Nota01: vetor [1..100] de inteiro
+Continuar: Caractere
+K: inteiro
+B: inteiro
+
+Inicio
+
+Continuar <- "s"
+K <- 0
+B <- 0
+Enquanto Continuar = "s" faca
+
+K <- K + 1
+Escreval ("Qual é seu Nome?")
+Leia (Nome[K])
+Escreval (" ")
+Escreval ("Qual é seu Sobrenome?")
+Leia (Sobrenome[K])
+Escreval (" ")
+Escreval ("Qual é sua Nota?")
+Leia (Nota01[K])
+Escreval (" ")
+Escreval ("vc deseja continuar [s/n]?")
+Leia (Continuar)
+Escreval (" ")
+
+Fimenquanto
+
+Escreval ("tabela")
+Escreval (" ")
+
+Enquanto B < K faca
+
+B <- B + 1
+Escreval (B, ") Nome Completo: ", Nome[B], " ", Sobrenome [B])
+Escreval ("Nota: ", Nota01[B])
+Escreval (" ")
+
+FimEnquanto
+
+Fimalgoritmo
